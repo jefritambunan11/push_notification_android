@@ -1,0 +1,5 @@
+########################
+1 klik Realtime Database 
+2 pilih Singapore 
+3 pilih locked mode
+4 lalu tercipta DB nya

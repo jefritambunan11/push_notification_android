@@ -1,0 +1,31 @@
+########################
+1 klik menu Authentication di Firebase
+2 klik tombol get started
+3 klik Email/Password
+4 enable kan Email/Password
+5 klik tombol save 
+
+########################
+1 klik Tools > Firebase
+2 klik Authentication di bagian kanan
+3 klik Authenticate using a custom authentication system 
+4 klik Add the Firebase Authentication SDK to your app 
+5 klik Accept Changes 
+
+########################
+1 klik Tools > Firebase
+2 klik Authentication di bagian kanan
+3 lihat di bagian 7 Next steps 
+4 klik link complete guide for authenticating with a custom authentication system
+5 setelah website firebase terbuka
+6 klik Password Authentication dibagian kiri
+7 kopikan code dari no 4, bentuk seperti ini:
+	pilih Java android jika pake java
+8 pastekan ke fungsi signUpFirebase()
+
+########################
+1 setelah activity SignUp berhasil dibuat
+2 lalu coba tes isi email & password 
+3 lalu tekan tombol register di android
+4 lalu cek di website Firebase authentication nya
+	di tab user, apakah sudah masuk datanya

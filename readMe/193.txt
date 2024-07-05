@@ -1,0 +1,53 @@
+########################
+1 klik Tools >  Firebase
+2 klik Cloud Messaging di bagian kanan
+3 klik Set up Firebase Cloud Messaging
+4 klik Add FCM to your app 
+5 klik Accept Changes 
+6 periksa di gradle.kts pastikan muncul firebase.messaging
+
+########################
+1 buat class MyFirebaseService
+
+##########################
+1 pastekan ini ke Manifest pastikan di dalam <application>
+
+<service
+      android:name=".MyFirebaseService"
+      android:exported="false">
+      <intent-filter>
+        <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+      </intent-filter>
+	</service>
+		
+		
+    <meta-data
+      android:name="com.google.firebase.messaging.default_notification_icon"
+      android:resource="@drawable/bell">
+    </meta-data>
+
+    <meta-data
+      android:name="com.google.firebase.messaging.default_notification_icon"
+      android:resource="@color/colorAccent">
+    </meta-data>
+		
+		
+##########################
+1 klik menu Cloud Messaging di website Firebase 
+2 klik menu Messaging (klik nama project cari ke bawa Tombol Besar Cloud Messaging)
+3 klik Create your first campaign 
+4 klik Firebase Notification messages 
+5 klik tombol create
+6 isikan seperti
+	a. Notification title : Firebase Message 
+	b. Notification text : My first Firebase Message
+	c. Notification image: https://www.gstatic.com/mobilesdk/240501_mobilesdk/firebase_28dp.png
+7 klik tombol next
+8 di bagian Target
+9 di bagian select app, pilih nama project android nya
+10 klik tombol next 
+11 di bagian Scheduling, pilih Now di bagian Send to eligable users
+12 klik next
+13 klik next lagi di bagian Key Events (opsional)
+14 klik tombol Review 
+15 klik tombol publish

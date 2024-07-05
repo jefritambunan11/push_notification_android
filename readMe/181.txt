@@ -1,0 +1,45 @@
+########################
+1 klik Realtime Database 
+2 klik tanda + di nama Database
+3 Isikan
+	Name: employee
+4 klik tanda + di employee tersebut 
+5 Isikan
+	Name: name
+	Value: David
+6 klik tanda + di employee tersebut 
+7 Isikan
+	Name: surname
+	Value: Beckham
+8 klik tanda + di employee tersebut 
+9 Isikan
+	Name: job
+	Value: engineer
+10 klik tombol Add 
+
+########################
+1 klik Realtime Database 
+2 klik tanda + di nama Database
+3 Isikan
+	Name: Salary
+4 Value: 2000
+5 klik tombol Add 
+
+########################
+1 klik Realtime Database 
+2 klik tanda + di nama Database
+3 Isikan
+	Name: Users
+4 klik tanda + di employee tersebut 
+5 Isikan
+	Name: name
+	Value: mary
+6 klik tanda + di employee tersebut 
+7 Isikan
+	Name: email
+	Value: mary@gmail.com
+8 klik tanda + di employee tersebut 
+9 Isikan
+	Name: phone_number
+	Value: 08529155
+10 klik tombol Add 

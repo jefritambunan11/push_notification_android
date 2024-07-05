@@ -1,0 +1,48 @@
+
+1 klik tab data di FirestoreDatabase 
+
+2 lalu klik Start Collection
+
+3 masukan nama table di Collection ID misal nya example
+
+4 di bagian id isikan dengan employee dan isinya
+
+	field 		=> name 
+	value 	=> David 
+
+	field	 	=> surname
+	value 	=> Beckham
+
+	field	 	=> job
+	value 	=> enginner
+
+5 lalu save
+
+6 di bagian id isikan dengan salary dan isinya
+
+	field 		=> salary 
+	value 	=> 2000
+
+7 lalu save
+
+
+8 di bagian id isikan dengan salary dan isinya
+
+	field 		=> salary 
+	value 	=> 2000
+
+9 lalu save
+
+
+10 di bagian id isikan dengan users dan isinya
+
+	field 		=> name 
+	value 	=> Mary 
+
+	field	 	=> email
+	value 	=> mary@gmail.com
+
+	field	 	=> phone_number
+	value 	=> 085297133322
+
+

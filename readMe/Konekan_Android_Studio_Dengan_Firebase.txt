@@ -1,0 +1,8 @@
+########################
+1 Klik menu Tools > Firebase 
+2 Klik Realtime Database di sebelah kanan
+3 Klik Get Started With Realtime Database 
+4 Di bagian 
+	1 Connect your app to Firebase => Connected 
+5 lalu klik tombol Add the Realtime Database SDK to your app 
+6 lalu klik Accept Changes 

@@ -1,0 +1,77 @@
+Buat SHA key di android studio
+
+Cara 1
+
+1. buka terminal di android studio
+
+2. lalu paste kan    ./gradlew signingReport
+
+3. ambil info sha nya
+
+	MD5: C7:FC:0C:5A:1B:BF:F2:C0:FC:93:49:9A:1B:C7:C7:73
+	SHA1: 58:13:B6:9A:D9:70:4D:9D:07:6A:16:78:11:97:74:76:8D:17:C7:60
+	SHA-256: 54:69:C4:49:A1:A4:49:BF:3B:0E:BE:A7:23:52:06:AD:D0:4C:32:5C:FD:39:0A:29:C3:A8:04:A9:B8:0D:45:FA
+
+
+Cara 2
+
+1. lalu cd  ke folder bin di program files -> java -> jre 1.8 -> bin
+
+2 lalu pastekan skrip berikut
+	
+	keytool -alias androiddebugkey -keystore "C:\Users\JEFRI TAMBUNAN\.android\debug.keystore" -list -v
+
+3. lalu masukan password ->  android   (huruf kecil semua)
+	C:\Users\JEFRI TAMBUNAN
+
+
+
+
+
+#######################################################
+
+
+1 Lalu kode SHA1 nya di ambil dan di pastekan ke Firebase
+
+2 lalu download file google-service.json
+
+3 lalu kopikan file tersebut ke dalam folder app di project android kita
+
+4 lalu klik tab Tool -> Firebase
+
+5 lalu klik panah  -> Realtime Database 
+
+6 lalu klik Get started with Realtime Database
+
+7 pastikan muncul tulisan connected warna hijau
+
+8 lalu klik Add the Realtime Database SDK to your app
+
+9 lalu klik Accept Changes
+
+10 lalu liat ke bagian file build.gradle.kts
+
+11 pastikan ada muncul  di bagian dependencies nya :
+	implementation(libs.firebase.database)
+
+12 pastikan juga di bagian plugins ada muncul :
+	id("com.google.gms.google-services")
+
+13 lalu Kembali ke website Firebase dan next kan
+
+14 lalu klik tombol Continue to console
+
+
+###########################################
+
+1 lalu di website FIrebase
+
+2 klik logo gear di bagian kiri
+
+3 lalu klik Project Settings
+
+4 lalu klik Add finderprint di bagian Bawah
+
+5 lalu pastekan key dari SHA-256 ke text input nya 
+
+6

@@ -1,0 +1,7 @@
+########################
+1 klik menu Authentication di Firebase
+2 klik menu Sign-in-method 
+3 klik tombol Add new provider 
+4 pilih Phone
+5 klik enable 
+6 klik save 
